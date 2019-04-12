@@ -2,10 +2,14 @@
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hari70a.github.io/sampletodoapp",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "immutability-helper": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "shortid": "^2.2.14"
   },
   "scripts": {
     "start": "react-scripts start",
