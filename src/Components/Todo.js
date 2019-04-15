@@ -1,18 +1,10 @@
 import React, { Component } from "react";
-import TodoForm from "./TodoForm";
+import { Redirect } from "react-router-dom";
 
 export default class Todo extends Component {
   render() {
     if (this.props.item.isEditing) {
-      return (
-        <TodoForm
-          item={this.props.item}
-          onChange={this.props.onChangeEdit}
-          onClick={() => this.props.editItem(this.props.item)}
-          value={this.props.item.title}
-          btnText={"Edit todo"}
-        />
-      );
+      return <Redirect to="/edit" />;
     }
     return (
       <div style={{ display: "flex" }}>

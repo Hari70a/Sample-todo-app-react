@@ -10,12 +10,13 @@ export default class TodoForm extends Component {
           ref={this.inputRef}
           placeholder="Todo"
           value={this.props.value}
-          onChange={e => this.props.onChange(e, this.props.item)}
+          onChange={e => this.props.onChange(e)}
         />
         <button
           onClick={() => {
-            this.props.onClick();
+            this.props.onClick(this.props.item);
             this.inputRef.current.value = "";
+            this.props.history.push("/");
           }}
         >
           {this.props.btnText}
