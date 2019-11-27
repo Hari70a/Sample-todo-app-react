@@ -1,0 +1,6 @@
+{
+  "roots": ["<rootDir>/src"],
+  "testRegex": "(/__tests__/.*|(\\.|/)(test))\\.js?$",
+  "moduleFileExtensions": ["js", "jsx", "json", "node"],
+  "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
+}
