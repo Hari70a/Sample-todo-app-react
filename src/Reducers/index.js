@@ -33,7 +33,7 @@ const DEFAULT_STATE = {
 };
 
 const reducer = (state = DEFAULT_STATE, action) => {
-  console.log(action.type, "reducer");
+  console.log(action.type, "reducer5555");
   switch (action.type) {
     case ADD_TODO:
       return {

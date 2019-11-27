@@ -1,8 +1,4 @@
-// import { createSelector } from "reselect";
-
-// export const getCompletedTodos = (state, props) => state.todo.isCompleted;
-
-// const getTodos = (state, props) => state.todoLists[props.listId].todos;
+//
 import { createSelector } from "reselect";
 
 const getVisibilityFilter = state => {

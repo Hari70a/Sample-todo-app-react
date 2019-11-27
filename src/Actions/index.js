@@ -45,7 +45,6 @@ export const reorderTodos = todos => {
 };
 
 export const toggleFilter = filter => {
-  console.log(filter, "FILTER####");
   return {
     type: TOGGLE_FILTER,
     filter

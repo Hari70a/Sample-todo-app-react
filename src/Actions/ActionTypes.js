@@ -4,3 +4,4 @@ export const EDIT_TODO = "EDIT_TODO";
 export const COMPLETE_TODO = "COMPLETE_TODO";
 export const REORDER_TODOS = "REORDER_TODOS";
 export const TOGGLE_FILTER = "TOGGLE_FILTER";
+console.log("tYpes");

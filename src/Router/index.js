@@ -8,6 +8,7 @@ import classNames from "classnames";
 
 class Navigator extends Component {
   render() {
+    //
     return (
       <Router>
         <div className="nav-bar">
